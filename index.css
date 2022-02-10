@@ -1,0 +1,38 @@
+.title {
+    text-align: center;
+}
+.container {
+    display: flex;
+    background-color: blueviolet;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row nowrap;
+    justify-content: center;
+    /* align-items: center; */
+    /* align-content: space-evenly; */
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+    
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.container div {
+    object-fit: contain;
+    background-color: burlywood;
+    font-size: 30px;
+    margin-right: 10px;
+    padding: 30px;
+    line-height: 100px;
+    text-align: center;
+    width: 100px;
+    transition: transform 450ms;
+}
+
+.container div:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+}
