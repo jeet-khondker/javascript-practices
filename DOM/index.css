@@ -1,0 +1,17 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgb(255, 231, 105);
+    color: #484848;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.tagline {
+    color: #00B1D2FF
+}
